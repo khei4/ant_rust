@@ -28,7 +28,10 @@
                 "<",
                 "${fileDirname}/input.txt"
             ],
-            "group": "build"
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
