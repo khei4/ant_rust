@@ -18,6 +18,9 @@ impl<T: std::default::Default + Clone + Copy + std::ops::AddAssign> BIT<T> {
     }
 
     fn add(&mut self, mut i: i64, x: T) {
+        if i == 0 {
+            panic!("0 is given to BIT");
+        }
         while (i as usize) < self.table.len() {
             self.table[i as usize] += x;
             i += i & -i;
