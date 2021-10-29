@@ -4,22 +4,6 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "type": "cargo",
-            "subcommand": "build",
-            "problemMatcher": [
-                "$rustc"
-            ],
-            "group": "build"
-        },
-        {
-            "type": "cargo",
-            "subcommand": "run",
-            "problemMatcher": [
-                "$rustc"
-            ],
-            "group": "build"
-        },
-        {
             "type": "shell",
             "label": "input and run",
             "command": "cargo",
