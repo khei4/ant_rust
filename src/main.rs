@@ -15,6 +15,8 @@ use std::process::exit;
 
 #[allow(dead_code)]
 const MOD: usize = 1000000007;
+#[allow(dead_code)]
+const INF: usize = std::usize::MAX / 2;
 
 fn read<T: std::str::FromStr>() -> T {
     use std::io::Read;
