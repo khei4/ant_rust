@@ -56,7 +56,7 @@ fn main() {
     let mut sg = SegTree::new(10usize.pow(1));
     sg.init(0, 0, n, &l);
     println!("{:?}", sg);
-    sg.change()
+    // sg.change()
 }
 
 // =========

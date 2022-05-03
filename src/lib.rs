@@ -1,2 +1,10 @@
 mod binary_search_3_1;
+mod data_structure_2_4;
+mod dp_2_3;
+mod flow_3_5;
+mod gcj_2_7;
+mod graph_master_4_3;
 mod greedy_2_2;
+mod mastering_dp_3_4;
+mod tech_3_2;
+mod various_ds_3_3;
