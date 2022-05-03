@@ -1,14 +1,10 @@
 fn check(l: &Vec<f64>, v: f64, k: f64) -> bool {
     let mut tmp = 0.0;
-    for i in 0..l.len() {
+    for e in l {
         //個数なのでfloor
-        tmp += (l[i] / v).floor();
+        tmp += (e / v).floor();
     }
-    if tmp >= k {
-        true
-    } else {
-        false
-    }
+    tmp >= k
 }
 
 fn main() {
