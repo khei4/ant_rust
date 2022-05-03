@@ -1,0 +1,1 @@
+for i in range(100000): print('"key' + str(i) + '"' + '=> ' + str(i) + ',')
